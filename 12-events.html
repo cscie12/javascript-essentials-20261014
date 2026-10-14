@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Essentials - Events</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="stylesheet" href="./styles/main.css" />
+    <style>
+        button {
+            display: block;
+            scroll-margin-top: 1rem;
+            font-size: larger;
+            padding: 0.5rem;
+        }
+
+        body.night {
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <script src="./scripts/12-events.js"> </script>
+</head>
+
+<body>
+    <header>JavaScript Essentials</header>
+    <main>
+        <h1>Events</h1>
+        <button onclick="console.log('button clicked')">Click this button!</button>
+
+        <button id="toggle-theme">Toggle Theme</button>
+
+        <p>Examine the JS in the <code>scripts/12-events.js</code> file!</p>
+
+    </main>
+    <footer><a href="./">Examples</a> are from <a href="https://cs12.net/">CSCI E-12</a></footer>
+
+</body>
+
+</html>
